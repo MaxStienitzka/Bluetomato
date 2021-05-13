@@ -1,10 +1,8 @@
-# Template2D-Unity202015f1
-
 ### Project description: 
 Introduction/Project summary 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+Unity 2020.2.4f1, Visual Studio Code
 
 ### Target platform: 
 WebGL, Mobile, VR Device incl. reference resolution 
