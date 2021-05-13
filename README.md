@@ -1,26 +1,28 @@
 ### Project description: 
-Introduction/Project summary 
+The Bluetomato Skate App is featuring a built in Skateboard customizer, Skateboard Guide and Local Skateparks/Spots Map with 3D View.
+This project is built at the HTBLuVA Salzburg Multimedia Branch as a MPJ-Project of 7 students.
 
 ### Development platform: 
 Unity 2020.2.4f1, Visual Studio Code
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+Android
 
 ### Visuals: 
 Screenshots (concept and experience), Video
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+Install the .apk on your android phone!
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Images by Bluetomato, and various Skate Companys
 
 ### Project state: 
-incl. progress in percent
+alpha state reached
+80% finished
 
 ### Limitations: 
 
 ### Lessons Learned: 
 
-Copyright by you :)
+Copyright by Maximilian Friedrich Stienitzka
