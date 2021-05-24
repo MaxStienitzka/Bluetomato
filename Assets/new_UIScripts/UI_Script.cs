@@ -21,7 +21,7 @@ public class UI_Script : MonoBehaviour
 
     public void SetAuwahlUI()
     {
-        if (ButtonActivated.active)
+        if (ButtonActivated.activeSelf)
         {
             ButtonInactive.SetActive(true);
             addToCart.SetActive(true);

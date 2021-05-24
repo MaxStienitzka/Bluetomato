@@ -25,7 +25,7 @@ public class BuyingScript : MonoBehaviour
 
     void Update()
     {
-        if (buyingScreen.active)
+        if (buyingScreen.activeSelf)
         {
             header.sprite = newHeader;
             headerText.color = Color.white;
