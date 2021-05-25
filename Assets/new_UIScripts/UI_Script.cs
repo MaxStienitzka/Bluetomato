@@ -14,6 +14,8 @@ public class UI_Script : MonoBehaviour
     public GameObject auswahl;
 
     public GameObject parts;
+    public GameObject ImagesSqr;
+    public GameObject ImagesHigh;
 
     public GameObject skateboardNormal;
 
@@ -47,5 +49,15 @@ public class UI_Script : MonoBehaviour
     {
         parts.SetActive(true);
         auswahl.SetActive(false);
+        ImagesHigh.SetActive(false);
+        ImagesSqr.SetActive(true);
+    }
+
+    public void HighParts()
+    {
+        parts.SetActive(true);
+        auswahl.SetActive(false);
+        ImagesSqr.SetActive(false);
+        ImagesHigh.SetActive(true);
     }
 }
