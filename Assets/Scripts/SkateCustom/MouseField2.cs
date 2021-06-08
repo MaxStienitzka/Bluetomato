@@ -15,10 +15,10 @@ public class MouseField2 : MonoBehaviour
 
     public float offset;
 
-    float smoothroatet = 5f;
+    private float smoothroatet = 5f;
 
     [SerializeField]
-    GameObject map;
+    private GameObject map;
 
     private void MoveSprite()
     {

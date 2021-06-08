@@ -6,18 +6,18 @@ using UnityEngine.UI;
 
 public class GuideScript : MonoBehaviour
 {
-public GameObject auswahl;
-public GameObject info;
-public Image image;
-public Text descr;
-public List<string> guideInfo;
-public List<Sprite> guideImage;
+    public GameObject auswahl;
+    public GameObject guideOne;
 
-public void close(){
-    auswahl.SetActive(false);
-}
-public void GuideOne(){
-    descr.text = guideInfo[0];
-    image.sprite = guideImage[0];
-}
+    public void GuideOne()
+    {
+        guideOne.SetActive(true);
+        auswahl.SetActive(false);
+    }
+
+    public void Reset()
+    {
+        auswahl.SetActive(true);
+        guideOne.SetActive(false);
+    }
 }

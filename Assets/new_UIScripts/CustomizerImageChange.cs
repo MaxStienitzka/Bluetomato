@@ -10,6 +10,8 @@ public class CustomizerImageChange : MonoBehaviour
     public List<Sprite> Grip;
     public List<Sprite> Rollers;
     public List<Sprite> Bearings;
+    public List<Sprite> Trucks;
+    public List<Sprite> Hardware;
 
     public void DeckImages()
     {
@@ -53,5 +55,27 @@ public class CustomizerImageChange : MonoBehaviour
         Buttons[4].sprite = Bearings[4];
         Buttons[5].sprite = Bearings[5];
         Buttons[6].sprite = Bearings[6];
+    }
+
+    public void TrucksImages()
+    {
+        Buttons[0].sprite = Trucks[0];
+        Buttons[1].sprite = Trucks[1];
+        Buttons[2].sprite = Trucks[2];
+        Buttons[3].sprite = Trucks[3];
+        Buttons[4].sprite = Trucks[4];
+        Buttons[5].sprite = Trucks[5];
+        Buttons[6].sprite = Trucks[6];
+    }
+
+    public void HardwareImages()
+    {
+        Buttons[0].sprite = Hardware[0];
+        Buttons[1].sprite = Hardware[1];
+        Buttons[2].sprite = Hardware[2];
+        Buttons[3].sprite = Hardware[3];
+        Buttons[4].sprite = Hardware[4];
+        Buttons[5].sprite = Hardware[5];
+        Buttons[6].sprite = Hardware[6];
     }
 }
